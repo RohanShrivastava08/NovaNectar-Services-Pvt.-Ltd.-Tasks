@@ -1,0 +1,199 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #df5959;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3357d8;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #e6c545;
+    font-size: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ebd0f0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.banner .btn {
+    color: rgba(235, 233, 229, 0.968);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.query-form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.query-form h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.query-form form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.query-form input,
+.query-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #771515;
+    border-radius: 5px;
+}
+
+.query-form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #a72727;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.query-form button:hover {
+    background-color: #555;
+}
+
+.products {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+/* CSS Styles (public/styles.css) */
+
+.products .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    width: calc(33.33% - 40px); /* Adjust as needed */
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-card .product-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card .product-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card .product-details .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-card .product-details a.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.product-card .product-details a.btn:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #8287d0;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
