@@ -1,0 +1,306 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Set background color for the body */
+  color: #333; /* Set default text color */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Slider Styles */
+.slideshow {
+  margin: 30px auto; /* Center the slider */
+  max-width: 1000px; /* Set max width for the slider */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%; /* Full width */
+  display: none;
+}
+
+.slide img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px; /* Add spacing between header and next section */
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+/* Description Styles */
+.description,
+.about-slider {
+  background-color: #f4f4f4;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.description p {
+  margin: 10px 0;
+  max-width: 800px; /* Set max width for the paragraphs */
+  margin: 0 auto; /* Center the paragraphs */
+}
+
+/* Slider Styles */
+.slideshow {
+  margin: 30px auto; /* Center the slider */
+  max-width: 800px; /* Set max width for the slider */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+/* Blog Section Styles */
+.blog {
+  padding: 50px 0;
+}
+
+.blog h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Evenly distribute blog posts */
+}
+
+.blog-post {
+  width: calc(80% - 20px); /* Adjust width to accommodate margins */
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-content h3 {
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  margin-bottom: 10px;
+}
+
+.blog-content a {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px; /* Add spacing between footer and previous section */
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Slider Styles */
+.slideshow {
+  margin: 30px auto; /* Center the slider */
+  max-width: 1000px; /* Set max width for the slider */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%; /* Full width */
+  display: none;
+}
+
+.slide img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Blog Section Styles */
+.blog {
+  padding: 50px 0;
+}
+
+.blog h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Evenly distribute blog posts */
+}
+
+.blog-post {
+  width: calc(45% - 20px); /* Adjust width to accommodate margins */
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-content h3 {
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  margin-bottom: 10px;
+}
+
+.blog-content a {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  background-color: #555;
+}
+
+/* Additional CSS for Contact Page */
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}

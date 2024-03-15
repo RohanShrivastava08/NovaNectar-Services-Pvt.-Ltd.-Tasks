@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Additional CSS for product styling */
+      .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .product {
+        width: calc(
+          50% - 20px
+        ); /* Each product takes up 50% of the container width */
+        margin-bottom: 40px; /* Add some spacing between products */
+        padding: 20px; /* Add padding to create a box effect */
+        background-color: #f9f9f9; /* Light gray background */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+      }
+
+      .product img {
+        width: 100%; /* Make the image fill the container */
+        border-radius: 5px; /* Rounded corners for images */
+      }
+
+      .product h3 {
+        margin-top: 20px; /* Add some spacing between image and title */
+      }
+
+      .product p {
+        margin: 10px 0; /* Add some spacing between paragraphs */
+      }
+
+      .product button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .product button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <h1>COMPHARDY</h1>
+      </div>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Products Section -->
+    <section class="products">
+      <div class="container">
+        <h2>
+          <br>
+          <br>FEATURED PRODUCTS<br> <br>
+        </h2>
+        <br>
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <div class="product">
+            <img src="prod1.jpg" alt="Product 1" >
+            <h3>Product 1</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p>Price: $25.65</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Product 2 -->
+          <div class="product">
+            <img src="prod2.jpg" alt="Product 2" />
+            <h3>Product 2</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p>Price: $32.25</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products -->
+          <!-- Product 3 -->
+          <div class="product">
+            <img src="prod3.jpg" alt="Product 3" />
+            <h3>Product 3</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p>Price: $54.26</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Product 4 -->
+          <div class="product">
+            <img src="prod4.jpg" alt="Product 4" />
+            <h3>Product 4</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p>Price: $14.26</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Product 5 -->
+          <div class="product">
+            <img src="prod5.jpg" alt="Product 5" />
+            <h3>Product 5</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p>Price: $71.32</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Product 6 -->
+          <div class="product">
+            <img src="prod6.jpg" alt="Product 6" />
+            <h3>Product 6</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p>Price: $63.21</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 COMPHARDY. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
